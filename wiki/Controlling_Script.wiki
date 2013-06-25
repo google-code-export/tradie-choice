@@ -1,0 +1,15 @@
+#labels Featured
+#Guide to controlling script
+
+= Introduction =
+
+*The following pages control the script
+#Homepage is controlled by app/views/home.php
+#Manage Account = 
+#
+#
+#
+
+
+
+= Details =
