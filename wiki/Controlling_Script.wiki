@@ -7,13 +7,18 @@ Guide to controlling script
 # Homepage is controlled by app/views/home.php#
 # Manage Account = #
 
+https:// test.tradiechoice.com /index.php
 
-<p>https://  test.tradiechoice.com /index.php <br />
-       -&gt;/app/controllers/home.php  (  function index()   )   --------&gt; Controller<br />
-      -&gt;/app/views/home.php (view)<br />
-  <br />
-  https://  test.tradiechoice.com /index.php/project/create_custom<br />
-        -&gt;/app/controllers/project/home.php (   function create_custom()  )  --------&gt; Controller<br />
-      -&gt;/app/views/project/project/createProjectCustom.php  (view)</p>
+->/app/controllers/home.php ( function index() ) --------> Controller
+
+->/app/views/home.php (view)
+
+
+https:// test.tradiechoice.com /index.php/project/create_custom
+
+->/app/controllers/project/home.php ( function create_custom() ) --------> Controller
+
+
+->/app/views/project/project/createProjectCustom.php (view)
 
 = Details =
