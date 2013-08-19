@@ -9,6 +9,13 @@
 #
 #
 #
+https:// test.tradiechoice.com /index.php 
+      ->/app/controllers/home.php (  function index()   )  --------> Controller
+      ->/app/views/home.php (view)
+
+https:// test.tradiechoice.com /index.php/project/create_custom
+      ->/app/controllers/project/home.php (  function create_custom()  )  --------> Controller
+      ->/app/views/project/project/createProjectCustom.php (view)
 
 
 
