@@ -17,7 +17,7 @@ https://test.tradiechoice.com/index.php/project/create
 https://test.tradiechoice.com/index.php/project/view/130  (project_id )
 -> view a project<br />
 ->/app/controllers/project.php (  function view()  )  --------> Controller<br />
-      ->/app/views/ project/ viewProject.php --------->view
+->/app/views/ project/ viewProject.php --------->view
 ----
 https://test.tradiechoice.com/index.php/project/category/Plumber  (category name ) 
 -> category page<br />
