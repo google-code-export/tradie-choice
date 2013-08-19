@@ -25,20 +25,30 @@ https://test.tradiechoice.com/index.php/project/create
       ->/app/controllers/project.php (  function create()  )  --------> Controller
       ->/app/views /project/ createProject.php --------->view
 ----
-https://test.tradiechoice.com/index.php/project/view/130  (project_id )
+https://test.tradiechoice.com/index.php/project/view/130  =(project_id )
+
       -> view a project
+
       ->/app/controllers/project.php (  function view()  )  --------> Controller
+
       ->/app/views/ project/ viewProject.php --------->view
 ----
 https://test.tradiechoice.com/index.php/project/category/Plumber  (category name )
+
       -> category page
-      ->/app/controllers/project.php (  function category()  )  --------> Controller
+
+      ->/app/controllers/project.php (  function category()  )  
+
+--------> Controller
       ->/app/views/project / listProjects.php --------->view
 
 ----
 https://test.tradiechoice.com/index.php/project/postBid/130 (project_id )
+
       ->  post a new bid
+
       ->/app/controllers/project.php (  function postBid()  )  --------> Controller
+
       ->/app/views/project /postBid.php --------->view
 
 
