@@ -6,13 +6,13 @@ Guide to controlling script
 The following pages control the script
 ----
 
-https:// test.tradiechoice.com /index.php
+https://test.tradiechoice.com/index.php
 
 ->/app/controllers/home.php ( function index() ) --------> Controller
 
 ->/app/views/home.php (view)
 ----
-https:// test.tradiechoice.com /index.php/project/create_custom
+https://test.tradiechoice.com/index.php/project/create_custom
 
 ->/app/controllers/project/home.php ( function create_custom() ) --------> Controller
 
