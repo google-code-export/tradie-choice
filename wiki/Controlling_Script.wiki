@@ -1,55 +1,31 @@
 #labels Featured
-Guide to controlling script
+https://test.tradiechoice.com/index.php<br /> 
+     -> Home page<br />
+      ->/app/controllers/home.php (  function index()   )  --------> Controller<br />
+      ->/app/views/home.php ---------->view<br />
 
-= Introduction =
-
-The following pages control the script
+https://test.tradiechoice.com/index.php/project/create_custom <br />
+     ->buyer post a new project<br />
+      ->/app/controllers/project.php (  function create_custom()  )  --------> Controller<br />
+      ->/app/views/project/createProjectCustom.php -------------->view<br />
 ----
-
-https://test.tradiechoice.com/index.php
-
-->/app/controllers/home.php ( function index() ) --------> Controller
-
-->/app/views/home.php (view)
+https://test.tradiechoice.com/index.php/project/create <br />
+      -> client  post a new project<br />
+      ->/app/controllers/project.php (  function create()  )  --------> Controller<br />
+      ->/app/views /project/ createProject.php --------->view<br />
 ----
-https://test.tradiechoice.com/index.php/project/create_custom
-
-->/app/controllers/project/home.php ( function create_custom() ) --------> Controller
-
-
-->/app/views/project/project/createProjectCustom.php (view)
-
+https://test.tradiechoice.com/index.php/project/view/130  (project_id ) <br />
+      -> view a project<br />
+      ->/app/controllers/project.php (  function view()  )  --------> Controller<br />
+      ->/app/views/ project/ viewProject.php --------->view<br />
 ----
-https://test.tradiechoice.com/index.php/project/create 
-      -> client  post a new project
-      ->/app/controllers/project.php (  function create()  )  --------> Controller
-      ->/app/views /project/ createProject.php --------->view
-----
-https://test.tradiechoice.com/index.php/project/view/130  =(project_id )
-
-      -> view a project
-
-      ->/app/controllers/project.php (  function view()  )  --------> Controller
-
-      ->/app/views/ project/ viewProject.php --------->view
-----
-https://test.tradiechoice.com/index.php/project/category/Plumber  (category name )
-
-      -> category page
-
-      ->/app/controllers/project.php (  function category()  )  
-
---------> Controller
-      ->/app/views/project / listProjects.php --------->view
+https://test.tradiechoice.com/index.php/project/category/Plumber  (category name ) <br />
+      -> category page<br />
+      ->/app/controllers/project.php (  function category()  )  --------> Controller<br />
+      ->/app/views/project / listProjects.php --------->view<br />
 
 ----
-https://test.tradiechoice.com/index.php/project/postBid/130 (project_id )
-
-      ->  post a new bid
-
-      ->/app/controllers/project.php (  function postBid()  )  --------> Controller
-
-      ->/app/views/project /postBid.php --------->view
-
-
-= Details =
+https://test.tradiechoice.com/index.php/project/postBid/130 (project_id ) <br />
+      ->  post a new bid<br />
+      ->/app/controllers/project.php (  function postBid()  )  --------> Controller<br />
+      ->/app/views/project /postBid.php --------->view<br />
