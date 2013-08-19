@@ -2,28 +2,27 @@
 https://test.tradiechoice.com/index.php
 -> Home page<br />
 ->/app/controllers/home.php (  function index()   )  --------> Controller<br />
-->/app/views/home.php ---------->view<br />
-
+->/app/views/home.php ---------->view
+----
 https://test.tradiechoice.com/index.php/project/create_custom
 ->buyer post a new project<br />
 ->/app/controllers/project.php (  function create_custom()  )  --------> Controller<br />
-->/app/views/project/createProjectCustom.php -------------->view<br />
+->/app/views/project/createProjectCustom.php -------------->view
 ----
 https://test.tradiechoice.com/index.php/project/create
 -> client  post a new project<br />
 ->/app/controllers/project.php (  function create()  )  --------> Controller<br />
-->/app/views /project/ createProject.php --------->view<br />
+->/app/views /project/ createProject.php --------->view
 ----
 https://test.tradiechoice.com/index.php/project/view/130  (project_id )
 -> view a project<br />
 ->/app/controllers/project.php (  function view()  )  --------> Controller<br />
-      ->/app/views/ project/ viewProject.php --------->view<br />
+      ->/app/views/ project/ viewProject.php --------->view
 ----
 https://test.tradiechoice.com/index.php/project/category/Plumber  (category name ) 
 -> category page<br />
 ->/app/controllers/project.php (  function category()  )  --------> Controller<br />
-->/app/views/project / listProjects.php --------->view<br />
-
+->/app/views/project / listProjects.php --------->view
 ----
 https://test.tradiechoice.com/index.php/project/postBid/130 (project_id ) 
 ->  post a new bid<br />
