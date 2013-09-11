@@ -1,10 +1,12 @@
 #labels Featured
-{{{https://test.tradiechoice.com/index.php
+                 =home.php Controller=
+https://test.tradiechoice.com/index.php
 -> Home page<br />
 ->/app/controllers/home.php (  function index()   )  --------> Controller<br />
 ->/app/views/home.php ---------->view
-}}}
 ----
+
+                 =project.php Controller=
 https://test.tradiechoice.com/index.php/project/create_custom
 ->buyer post a new project<br />
 ->/app/controllers/project.php (  function create_custom()  )  --------> Controller<br />
