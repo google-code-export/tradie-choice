@@ -31,3 +31,20 @@ https://test.tradiechoice.com/index.php/project/postBid/130 (project_id )
 ->  post a new bid<br />
 ->/app/controllers/project.php (  function postBid()  )  --------> Controller<br />
 ->/app/views/project /postBid.php --------->view<br />
+----
+                
+              =signup.php Controller=
+https://test.tradiechoice.com/index.php/signup
+-> Signup page<br />
+->/app/controllers/signup.php (  function index()   )  --------> Controller<br />
+->/app/views/signup/Signup.php.php ---------->view
+----
+https://test.tradiechoice.com/index.php/signup/finalstep/activation_key
+-> Signup process final step2<br />
+->/app/controllers/signup.php (  function finalstep()   )  --------> Controller<br />
+->redirect info page ---------->view
+----
+https://test.tradiechoice.com/index.php/signup/confirm/activation_key
+-> Signup process final step for confirm email <br />
+->/app/controllers/signup.php (  function confirm()   )  --------> Controller<br />
+->redirect info page ---------->view
