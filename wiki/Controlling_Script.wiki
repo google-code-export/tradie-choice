@@ -1,8 +1,9 @@
 #labels Featured
-https://test.tradiechoice.com/index.php
+{{{https://test.tradiechoice.com/index.php
 -> Home page<br />
 ->/app/controllers/home.php (  function index()   )  --------> Controller<br />
 ->/app/views/home.php ---------->view
+}}}
 ----
 https://test.tradiechoice.com/index.php/project/create_custom
 ->buyer post a new project<br />
