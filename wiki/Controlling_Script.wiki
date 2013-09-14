@@ -25,7 +25,7 @@ https://test.tradiechoice.com/index.php/project/view/130  (project_id )
 https://test.tradiechoice.com/index.php/project/category/Plumber  (category name ) 
 -> category page<br />
 ->/app/controllers/project.php (  function category()  )  --------> Controller<br />
-->/app/views/project / listProjects.php --------->view
+->/app/views/project/listProjects.php --------->view
 ----
 https://test.tradiechoice.com/index.php/project/postBid/130 (project_id ) 
 ->  post a new bid<br />
@@ -37,7 +37,7 @@ https://test.tradiechoice.com/index.php/project/postBid/130 (project_id )
 https://test.tradiechoice.com/index.php/signup
 -> Signup page<br />
 ->/app/controllers/signup.php (  function index()   )  --------> Controller<br />
-->/app/views/signup/Signup.php.php ---------->view
+->/app/views/signup/Signup.php ---------->view
 ----
 https://test.tradiechoice.com/index.php/signup/finalstep/activation_key
 -> Signup process final step2<br />
@@ -48,3 +48,36 @@ https://test.tradiechoice.com/index.php/signup/confirm/activation_key
 -> Signup process final step for confirm email <br />
 ->/app/controllers/signup.php (  function confirm()   )  --------> Controller<br />
 ->redirect info page ---------->view
+----
+                =users.php Controller=
+
+https://test.tradiechoice.com/index.php/users
+-> User page<br />
+->/app/controllers/users.php (  function index()   )  --------> Controller<br />
+->/app/views/users/userList_1.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/users/login
+-> Login page<br />
+->/app/controllers/users.php (  function login()   )  --------> Controller<br />
+->/app/views/users/loginUsers.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/users/forgotPassword
+-> Forgot Password page<br />
+->/app/controllers/users.php (  function forgotPassword()   )  --------> Controller<br />
+->/app/views/users/forgotPassword.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/users/logout
+-> Logout<br />
+->/app/controllers/users.php (  function logout()   )  --------> Controller<br /> 
+->redirect info page ---------->view
+----
+                      =users.php Controller=
+
+https://test.tradiechoice.com/index.php/projects/index
+-> search by project page<br />
+->/app/controllers/projects.php (  function index()   )  --------> Controller<br />
+->/app/views/project/search.php ---------->view
+----
