@@ -74,7 +74,7 @@ https://test.tradiechoice.com/index.php/users/logout
 ->/app/controllers/users.php (  function logout()   )  --------> Controller<br /> 
 ->redirect info page ---------->view
 ----
-                      =users.php Controller=
+                      =projects.php Controller=
 
 https://test.tradiechoice.com/index.php/projects/index
 -> search by project page<br />
