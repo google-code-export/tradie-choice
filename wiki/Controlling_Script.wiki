@@ -81,3 +81,65 @@ https://test.tradiechoice.com/index.php/projects/index
 ->/app/controllers/projects.php (  function index()   )  --------> Controller<br />
 ->/app/views/project/search.php ---------->view
 ----
+
+                  =buyer.php Controller=
+
+https://test.tradiechoice.com/index.php/buyer/getBuyersreview
+-> Loads the top buyers<br />
+->/app/controllers/buyer.php (  function getBuyersreview()   )  --------> Controller<br />
+->/app/views/buyer/topBuyer.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/signUp
+-> Loads the signup page<br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/buyerSignup.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/resendActLink
+-> Resend activation link when users requested<br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/buyerSignup.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/confirm/activation_key
+-> Confirm signup process by activating key <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/buyerConfirm.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/editProfile/buyer_id
+-> editProfile for both buyer and programmer for edit his profile <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/editBuyerProfile.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/viewMyProjects/buyer_id
+-> View projects posted by a buyer <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/myProjects.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/refundMoney/project_id
+-> Refund money to programmer  <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->Redirect to /app/views/buyer/viewtransaction.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/viewProfile/buyer_id
+-> View buyer's profile  <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/viewProfile.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/reviewProgrammer/programmer_id
+-> Review Corresponding Programmers <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/reviewProgrammer.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/buyer/review/buyer_id
+-> Lists review of a provider <br />
+->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
+->/app/views/buyer/reviews.php ---------->view
+----
