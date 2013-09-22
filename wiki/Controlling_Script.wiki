@@ -143,3 +143,54 @@ https://test.tradiechoice.com/index.php/buyer/review/buyer_id
 ->/app/controllers/buyer.php ( function signUp() )  --------> Controller<br />
 ->/app/views/buyer/reviews.php ---------->view
 ----
+
+                  =account.php Controller=
+
+https://test.tradiechoice.com/index.php/account/edit
+-> Loads the account page and edit the profile<br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/edit.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/account/viewMail
+-> Loads the viewmail page with inbox & outbox mail list <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/mymail.php ---------->view
+----
+
+https://test.tradiechoice.com/index.php/account/deleteMail/mail_id
+->Delete email <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/mymail.php ---------->view (delete with ajax call)
+----
+
+https://test.tradiechoice.com/index.php/account/readMail/mail_id
+->Read the corresponding email <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/mymail.php ---------->view (read with ajax call)
+----
+
+https://test.tradiechoice.com/index.php/account/reviews
+->Loads the review list <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/reviews.php ---------->view 
+----
+
+
+https://test.tradiechoice.com/index.php/account/favoriteUsers
+->Loads the favorite user list <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/favorite.php ---------->view 
+----
+
+https://test.tradiechoice.com/index.php/account/blockedUsers
+->Loads the blocked user list <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/blocked.php ---------->view 
+----
+
+https://test.tradiechoice.com/index.php/account/notification
+->Loads email notification settings <br />
+->/app/controllers/account.php (  function edit()   )  --------> Controller<br />
+->/app/views/account/notification.php ---------->view 
+----
